@@ -1,0 +1,21 @@
+{
+  "name": "overrealmbot",
+  "version": "0.0.1",
+  "description": "OverRealm Bot",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "install": "^0.12.1",
+    "opusscript": "0.0.6",
+    "prism-media": "^0.3.1",
+    "ytdl-core": "^0.20.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MilkLegend",
+  "license": "ISC"
+}
