@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const Client = new Discord.Client();
 const prefix = "/";
+const TOKEN = process.env.TOKEN;
 
 Client.on('ready', ()=>{
     console.log("Bot Is Online!");
@@ -201,4 +202,4 @@ exports.run = async (client, message, args, level) => {// eslint-disable-line no
                               usage: "reload [command]"
                             };
 
-Client.login("NDYwMDgwNjY5MTQ2NjExNzIy.DhMpYA.w_y0eBU1gbCwNPY0G8YysFXJaY0");
+Client.login(TOKEN);
